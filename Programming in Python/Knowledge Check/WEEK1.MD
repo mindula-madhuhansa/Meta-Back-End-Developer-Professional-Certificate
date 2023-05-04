@@ -1,14 +1,12 @@
 1. Is a string in a Python a sequence?
    - [x] **Yes**
    - [ ] No
-
      > A string in Python is a sequence of characters
 
 2. In Python, what symbol is used for comments in code?
     - [ ] --
     - [x] **#**
     - [ ] //
-   
       > The hash symbol is used for adding comments in code.
       
 3. What type will be assigned to the following variable: **x = 4**?
