@@ -52,5 +52,5 @@
    - [ ] Recursion is memory efficient
    - [ ] Easier to follow
    - [ ] Easy to debug
-   - [x] Recursive code can make your code look neater
+   - [x] **Recursive code can make your code look neater**
        > Recursion code is easier to write.
