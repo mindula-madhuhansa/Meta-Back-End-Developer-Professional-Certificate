@@ -1,7 +1,7 @@
 1. State whether the following statement is True or False:<br/><br/>
 “Integration testing is where the application or software is tested as a whole and tested against the set requirements and expectations to ensure completeness”
     - [x] True
-    - [] False
+    - [ ] False
         > Integration testing is where the application or software is tested as a whole and tested against the set requirements and expectations to ensure completeness.
 
 2. Which of the following is NOT primarily one of the four levels in testing?
