@@ -8,7 +8,7 @@
     - [ ] Integration testing
     - [ ] Unit testing
     - [ ] System testing
-    - [ ]Acceptance testing
+    - [ ] Acceptance testing
     - [x] **Regression testing**
         > Regression testing is a type of stress testing that ensures stability of code.
 
