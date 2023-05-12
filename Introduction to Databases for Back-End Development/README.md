@@ -9,5 +9,5 @@
 -   Week 4:  [Database design](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/tree/main/Introduction%20to%20Databases%20for%20Back-End%20Development/Week%204)
 -   Week 5:  [Graded assessment](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/tree/main/Introduction%20to%20Databases%20for%20Back-End%20Development/Week%205)
 
-## [Proof of Completion](https://www.coursera.org/account/accomplishments/certificate/E2QQ5JV7VV6L)
-![certificate of introduction to databases for back-end development](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/blob/main/Introduction%20to%20Databases%20for%20Back-End%20Development/Coursera%20E2QQ5JV7VV6L.png)
+## Proof of Completion
+[![certificate of introduction to databases for back-end development](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/blob/main/Introduction%20to%20Databases%20for%20Back-End%20Development/Coursera%20E2QQ5JV7VV6L.png)](https://www.coursera.org/account/accomplishments/certificate/E2QQ5JV7VV6L)
