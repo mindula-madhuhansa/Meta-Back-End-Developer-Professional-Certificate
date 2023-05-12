@@ -56,7 +56,7 @@ Run the complete SQL statement in MySQL to create the table in the club database
 ![course table and department table](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bQADBzaDQKiAAwc2g3CoUA_36dc38637ea449afafc0d7ec466e7ce1_C1M5L1-IMAGE07.png?expiry=1683936000000&hmac=fOMzSGoqCxgnwCBYnPzKsX3q_lOoM9S1h90NPcyprRo)
 CREATE TABLE Course(<br/>courseID int NOT NULL, courseName VARCHAR(50), PRIMARY KEY (courseID),<br/> ____ ____ ( ____ ) ____ ____ ( ____ )<br/>);<br/>
 **Hint:** write only the missing part in your answer.
-    > `FOREIGN KEY (departmentID) REFERENCES Department (departmentID)`
+    > `FOREIGN KEY (DepartmentID) REFERENCES Department(DepartmentID)`
 
 11. What is a row of information about one specific staff member in a college database table referred to as?
     - [x] **A record**
