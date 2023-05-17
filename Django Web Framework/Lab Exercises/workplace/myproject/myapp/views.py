@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .forms import BookingForm
 
 
 # Create your views here.
@@ -33,5 +34,14 @@ def menu(request):
     return HttpResponse("Menu")
 
 
-def book(request):
-    return HttpResponse("Make a booking")
+# from week 3 - working with forms lab exercise
+def booking(request):
+    form = BookingForm()
+    if request.method == "POST":
+        form = BookingForm(request.POST)
+        if form.is_valid():
+            form.save()
+    context = {'form': form}
+    return render(request, 'booking.html', context)
+
+
