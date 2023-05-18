@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Drinks
+from .models import Drink
 from .models import DrinksCategory
 from .models import Booking
-from .models import Employees
+from .models import Employee
 
 
 # Register your models here.
@@ -12,10 +12,10 @@ from .models import Employees
 
 # from week 3 - models using foreign keys lab exercise
 admin.site.register(DrinksCategory)
-admin.site.register(Drinks)
+admin.site.register(Drink)
 
 # from week 3 - working with forms lab exercise
 admin.site.register(Booking)
 
 # from week 3 - using django admin lab exercise
-admin.site.register(Employees)
+admin.site.register(Employee)

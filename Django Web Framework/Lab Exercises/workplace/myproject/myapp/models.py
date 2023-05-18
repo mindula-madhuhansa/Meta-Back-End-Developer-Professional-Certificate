@@ -14,7 +14,7 @@ class DrinksCategory(models.Model):
     category_name = models.CharField(max_length=200)
 
 
-class Drinks(models.Model):
+class Drink(models.Model):
     drink_name = models.CharField(max_length=200)
     price = models.IntegerField()
     category_id = models.ForeignKey(DrinksCategory, on_delete=models.PROTECT, default=None)
@@ -30,7 +30,7 @@ class Booking(models.Model):
 
 
 # from week 3 - using django admin lab exercise
-class Employees(models.Model):
+class Employee(models.Model):
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     role = models.CharField(max_length=100)
