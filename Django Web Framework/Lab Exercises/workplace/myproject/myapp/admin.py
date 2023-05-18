@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Drinks
 from .models import DrinksCategory
 from .models import Booking
+from .models import Employees
 
 
 # Register your models here.
@@ -15,3 +16,6 @@ admin.site.register(Drinks)
 
 # from week 3 - working with forms lab exercise
 admin.site.register(Booking)
+
+# from week 3 - using django admin lab exercise
+admin.site.register(Employees)
