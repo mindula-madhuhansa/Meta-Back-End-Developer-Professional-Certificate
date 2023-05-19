@@ -3,6 +3,7 @@ from .models import Drink
 from .models import DrinksCategory
 from .models import Booking
 from .models import Employee
+from .models import Menu
 
 
 # Register your models here.
@@ -19,3 +20,6 @@ admin.site.register(Booking)
 
 # from week 3 - using django admin lab exercise
 admin.site.register(Employee)
+
+# from week 4 - creating dynamic templates lab exercise
+admin.site.register(Menu)

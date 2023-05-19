@@ -14,6 +14,6 @@ urlpatterns = [
     path("menu/", views.menu, name="menu"),
 
     # from week 3 - working with forms lab exercise
-    path("booking/", views.booking, name="booking"),
+    path("book/", views.booking, name="book"),
 
 ]

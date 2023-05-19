@@ -1,20 +1,52 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body>
-<!-- Add heading code -->
-<h1 style="color: #495E57"> Menu </h1>
+{% extends 'base.html' %}
 
-<!-- Add paragraph code -->
+<!--from week 4 - creating templates lab exercise-->
 
-<!-- Add image code -->
-<img src="{% static 'img/dessert.jpg' %}">
+<!--{% load static %}-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--<title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash; Add heading code &ndash;&gt;-->
+<!--<h1 style="color: #495E57"> Menu </h1>-->
+<!--&lt;!&ndash; Add paragraph code &ndash;&gt;-->
+<!--&lt;!&ndash; Add image code &ndash;&gt;-->
+<!--<img src="{% static 'img/dessert.jpg' %}">-->
+<!--</body>-->
+<!--</html>-->
 
-</body>
-</html>
+
+
+<!--from week 4 - creating dynamic templates lab exercise-->
+
+<!--{% if menu %}-->
+<!--{% for item in menu %}-->
+<!--{{item.name}} : {{item.price}}-->
+<!--<br>-->
+<!--{% endfor %}-->
+<!--{% else %}-->
+<!--<p>No items to display</p>-->
+<!--{% endif %}-->
+
+
+
+<!--from week 4 - working with templates lab exercise-->
+
+<!-- Add code to extend base.html file -->
+
+{% block content %}
+<p> Menu </p>
+<p> This is a Menu page for Little Lemon </p>
+{% endblock %}
+
+<!-- Add code to load static content -->
+
+
+<!-- Begin block content -->
+
+<!-- End block content -->

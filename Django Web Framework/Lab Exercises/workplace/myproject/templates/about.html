@@ -1,19 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body>
-<!-- Add heading code -->
-<h1 style="color: #495E57"> About </h1>
+{% extends 'base.html' %}
 
-<!-- Add paragraph code -->
-<p>{{content.about}}</p>
+<!--from week 4 - creating templates lab exercise-->
 
-<!-- Add image code -->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--<title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash; Add heading code &ndash;&gt;-->
+<!--<h1 style="color: #495E57"> About </h1>-->
+<!--&lt;!&ndash; Add paragraph code &ndash;&gt;-->
+<!--<p>{{content.about}}</p>-->
+<!--&lt;!&ndash; Add image code &ndash;&gt;-->
+<!--</body>-->
+<!--</html>-->
 
-</body>
-</html>
+<!--from week 4 - working with templates lab exercise-->
+
+<!-- Add code to extend base.html file -->
+
+{% block content %}
+<p> About Us</p>
+<p> This is an About page for Little Lemon </p>
+
+{% endblock %}
+
+<!-- Add code to load static content -->
+
+
+<!-- Begin block content -->
+
+<!-- End block content -->
