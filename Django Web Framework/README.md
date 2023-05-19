@@ -10,4 +10,4 @@
 -   Week 5:  [Course summary and graded project assessment](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/tree/main/Django%20Web%20Framework/Week%205)
 
 ## Proof of Completion
-[![certificate of django web framework](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/blob/main/Django%20Web%20Framework/Coursera%20P754PEJWMYWY.png)
+![certificate of django web framework](https://github.com/mindula-madhuhansa/Meta-Back-End-Developer-Professional-Certificate/blob/main/Django%20Web%20Framework/Coursera%20P754PEJWMYWY.png)
