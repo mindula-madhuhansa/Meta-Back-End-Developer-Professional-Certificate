@@ -75,3 +75,52 @@
         > SQLite is lightweight and has sufficient features to meet the requirements of small projects.
     - [x] **Rapid prototyping**
         > Since SQLite is a lightweight database, it can be used for rapidly creating prototypes without spending much time establishing additional connections.
+
+11. When you launch the development server, the default URL loads a **Congratulations**! page, with a rocket taking off. This page has a reference to the DEBUG option set to which value?
+    - [ ] Production
+    - [ ] False
+    - [x] **True**
+    - [ ] Unset
+        > The DEBUG mode is set to True, which enables the default Debugger present in the middleware for Django. 
+
+12. Which is NOT an advantage of tracking migrations over a database?
+    - [ ] Track user-specific changes
+    - [ ] Provides a centralized source to track changes
+    - [ ] Avoid repetitions
+    - [x] **Reduces processing time**
+        > Migrations and ORM are efficient ways to map object-oriented language queries to SQL, but it increases the processing time. 
+
+13. Which package provides Django's authentication and authorization system?
+    - [ ] django.contrib.admin
+    - [ ] django.core.wsgi
+    - [x] **django.contrib.auth**
+    - [ ] django.apps
+        > The django.contrib.auth package provides authentication and authorization support.
+
+14. Complete the following sentence: Jinja2 is a type of __________
+    - [x] **template Engine.**
+    - [ ] functionality to enable template inheritance.
+    - [ ] an alternative protocol for web communication.
+    - [ ] security tag added inside the templates.
+        > Jinja2 is a popular template engine used in Python and can be used for extending the functionalities of the Django template language while using Django. 
+
+15. The DRY principle in Django that promotes code re-usability is an acronym for:
+    - [x] **Don't repeat yourself**
+    - [ ] Don't recycle yourself
+    - [ ] Doubly repeat yourself
+    - [ ] Dynamically repeat yourself
+        > DRY is one of the main principles in Django and is utilized in Django with the help of template inheritance that promotes code re-usability. 
+
+16. Complete the following sentence. Variables are passed from the view to the template by passing them inside the render() function in the form of _______ objects.
+    - [x] **dictionary**
+    - [ ] dynamic
+    - [ ] tuple
+    - [ ] set
+        > Dictionary objects in Python are similar to JSON objects that have a key-value pair structure and are commonly used in web applications for passing data.
+    
+17. For the declaration of class **MenuTestCase** created for testing, what will be the parameter passed inside it to implement the **unittest** package of Python? For example:<br/>`class MenuTestCase(<class object to be passed>):`<br/><br/>
+    - [ ] UnitCase
+    - [ ] UnitTest
+    - [x] **TestCase**
+    - [ ] TestUnit
+        > The **TestCase** subclasses from the package **Django.test.TestCase**, which is imported inside the file to be tested and passed to the class **MenuTestCase** mentioned above as an argument. 
