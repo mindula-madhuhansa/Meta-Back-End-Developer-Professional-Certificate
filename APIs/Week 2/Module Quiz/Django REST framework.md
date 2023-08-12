@@ -8,14 +8,14 @@
 
 2. What are the benefits of using a serializer? Choose all that apply.
 
-   - [ ] It can save data to a database
+   - [x] **It can save data to a database**
    - [ ] It can automatically convert data to JSON or XML
    - [ ] It helps to authenticate API calls
    - [x] **It can convert model instances to native Python data types**
      > You can quickly convert model instances to native Python data types using serializers. These native Python data types can later be displayed as JSON and XML using renderers.
-   - [x] It can validate data
+   - [x] **It can validate data**
      > Before saving data in the database, a serializer can validate the data according to the validation rules specified in the serializers.py file to ensure the data is proper and sufficient.
-   - [x] It can convert user input and map it to models
+   - [x] **It can convert user input and map it to models**
      > This is a built-in functionality of the serializers in DRF, and it’s called Deserialization.
 
 3. Which of the following are valid serializer classes in DRF? Choose all that apply.
@@ -48,7 +48,7 @@
 
    - [ ] Learning DRF is tough
    - [ ] DRF doesn’t work with different database engines
-   - [x] DRF is built for API development
+   - [x] **DRF is built for API development**
    - [ ] DRF is a standalone framework
      > Though you can use DRF to create standard HTML content, DRF is specifically built for developers to create API projects very quickly. It comes with all the necessary classes and modules like ViewSets, generic views, serializers, authentication and permissions classes and many more which API developers require frequently in their projects. DRF also has excellent documentation and a huge community of developers so getting help or support is easier.
 
