@@ -69,7 +69,8 @@
 
 9. What happens when you blacklist a JWT refresh token?
 
-   - [ ] It cannot be used to generate new access tokens anymore.
+   - [x] **It cannot be used to generate new access tokens anymore.**
+     > When a refresh token is blacklisted, it cannot be used to generate a new access token anymore.
    - [ ] It expires
    - [ ] It blocks the user who bears this token
    - [ ] It cannot be used to generate new refresh tokens
