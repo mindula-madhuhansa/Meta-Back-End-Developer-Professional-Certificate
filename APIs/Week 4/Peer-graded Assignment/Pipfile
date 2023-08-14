@@ -5,9 +5,6 @@ name = "pypi"
 
 [packages]
 django = "*"
-djangorestframework = "*"
-djoser = "*"
-django-filter = "*"
 
 [dev-packages]
 
